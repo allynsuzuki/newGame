@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+
+
+
+<body onload="startGame()">
+
+<div id="score">100</div>
+
+    <header>
+        <h1 data-shadow='ocean'>ocean</h1>
+    </header>
+
+<p1>Navigate through the ocean collecting trash, but don't hit the fish!</p1>
+
+<div id="message"></div>
+
+        <div id="fact1">18 billion pounds of plastic trash winds up in our oceans each year</div>
+        <div id="fact2">There are 25 trillion pieces of plastic debris in the ocean</div>
+        <div id="fact3">Plastics cause more than 80% of the negative effects on animals associated with ocean trash.</div>
+        <div id="fact4"> Ocean pollutions kills more than one million sea birds each year.</div>
+        <div id="fact5"> In some of the most heavily polluted sections of the ocean, plastic outweighs plankton by six times.</div>
+        <div id="fact6">Approximately every square mile of ocean has more than 45,000 pieces of plastic floating in it.</div>
+        <div id="fact7">There’s enough plastic in the ocean to circle the Earth 400 times.</div>
+
+
+
+    <button id="start" onClick="myGameArea.start()" >PLAY!</button>
+
+<!--<   < id ="quiz" method="post" action="" enctype="text/plain">-->
+<div id="quiz">
+    <P>  Educate yourself! <BR>
+
+    <P>  How long does plastic take to decompose in the ocean? <BR>
+        <input type="radio"  value="400 years">400 years<BR>
+        <input type="radio"  value="80 years">80 years<BR>
+        <input type="radio"  value="200 years">200 years<BR>
+        <input type="radio" value="12 months">12 months<BR>
+    </p>
+<button onClick="quiz()" >submit</button>
+    <!--<input type="submit" value="submit">-->
+</div>
+
+
+
+</body>
+</html>
